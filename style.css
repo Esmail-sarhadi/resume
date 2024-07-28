@@ -512,3 +512,81 @@ h3 {
 .resume .func .interests-items div span {
   display: block;
 }
+.resume .func .portfolio {
+  clear: both;
+  background: #283593;
+  padding: 15px;
+  margin: 15px 0 0;
+}
+
+.portfolio-carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.carousel-slide img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.carousel-slide p {
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 179, 0, 0.7);
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.carousel-button:hover {
+  background: rgba(255, 179, 0, 1);
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+.language-switch {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 5px 10px;
+        border-radius: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+      .language-switch img {
+        transition: transform 0.3s ease;
+      }
+      .language-switch img:hover {
+        transform: scale(1.1);
+      }
+
